@@ -1,0 +1,71 @@
+ <style>
+        body {
+    background: #f5f6fa;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz {
+    background: #fff;
+    margin: 40px auto;
+    padding: 30px 40px 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    max-width: 450px;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #273c75;
+    margin-bottom: 20px;
+}
+fieldset {
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 15px 10px 10px 10px;
+    background: #f1f2f6;
+}
+legend {
+    font-weight: bold;
+    color: #353b48;
+}
+label {
+    font-size: 16px;
+    color: #353b48;
+    margin-bottom: 8px;
+    display: block;
+    cursor: pointer;
+}
+input[type="radio"] {
+    margin-right: 8px;
+}
+input[type="text"] {
+    background: #f1f2f6;
+    font-weight: bold;
+    color: #192a56;
+    text-align: center;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 6px 0;
+    width: 60px;
+    margin-left: 8px;
+}
+.btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    background: #44bd32;
+    color: #fff;
+    transition: background 0.2s;
+    display: block;
+    width: 100%;
+}
+.btn:hover {
+    background: #218c1b;
+}
+    </style>
